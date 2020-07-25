@@ -1,0 +1,141 @@
+body{
+    /* background: linear-gradient(to bottom left,#6d789b 30%, #f9f9f9); */
+    background-color: #485a96;
+} 
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    height: 15vh;
+}
+.nav-link{
+    color: #283663;
+}
+.myHeader{
+    background: url('/assets/myPic.png') no-repeat bottom center ;
+    background-size: 470px 85vh;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+
+.mainHeader{
+    color: #fff;
+    height: 85vh;
+}
+.myName{
+    margin-top: -10%;
+}
+.introduction{
+    margin-top: -10%;
+}
+
+.introduction p {
+    width: 77%;
+    margin: 30px 0;
+}
+.introduction span a{
+    color: #fff;
+    transition: all .5s ease-out;
+}
+.introduction span a:hover,
+.introduction span a:first-child:hover ~ a{
+    margin-left: 15px;
+}
+.introduction span a:first-child {
+    font-weight: bold;
+    color: #283663;
+    margin: 0 8px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 120px;
+}
+.blue-border{
+    height: 10px;
+    width: 10%;
+    margin: 35px 10px;
+    background-color: #283663;
+    border-radius: 0px 10px 0px 10px;
+}
+.social-media-icons {
+    margin-top: 60px;
+    height: 40px;
+}
+.social-media-icons a{
+    color: #fff;
+    margin: 0 10px;
+    transition: all .3s ease-out;
+}
+.social-media-icons a:hover{
+    color: #283663;
+}
+
+/* contact section */
+/* on laptop screen needs to edit the polegon */
+.myContactDetails{
+    height: 100vh;
+    background-color:#283663;
+    /* background: linear-gradient(to bottom left,#6d789b 40%,#6d789b 60%, #f9f9f9); */
+    clip-path: polygon(0 18%, 100% 0, 100% 86%, 0% 100%);
+    margin-top: -9%;
+}
+
+.contactRow{
+    height: 100vh;
+}
+
+.myEmail{
+    text-decoration: none !important;
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #485a96;
+    transition: all 0.3s ease-out;
+}
+.myEmail:hover{
+    color: #112047;
+}
+.myEmail:hover ~ a , .myEmail ~ a:hover{
+    margin-left: 15px;
+}
+
+/* cards section */
+.portfolio{
+    padding-bottom: 70px;
+}
+.myCard{
+    background-color: #283663;
+    color: white;
+}
+.works{
+    color: #fff;
+    margin-top: 180px;
+}
+
+/* footer section */
+footer{
+    height: 100vh;
+    background-color: #283663;
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -9%;
+}
+.myFooter{
+    height: 75vh;
+}
+.footer-btn:hover{
+    background-color: #445887 !important;
+ }
+.bottomFooter{
+    height: 25vh;
+}
+
+.footer-social-icons{
+    height: 40px;
+}
+.footer-social-icons a{
+    color: #fff;
+    margin: 0 10px;
+    transition: all .3s ease-out;
+}
+.footer-social-icons a:hover{
+    color: rgb(79, 79, 134);
+}
